@@ -25,7 +25,7 @@ SECRET_KEY = '(enp60@*af3wn^9=eos8u1d*873bf_86do!%dctd1^c_!6bf^5'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['localhost','54.242.50.134']
 
 
 # Application definition
@@ -75,8 +75,12 @@ WSGI_APPLICATION = 'CS.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'alucardDataBase',
+        'USER': 'postgres',
+        'PASSWORD': 'alucardhj123',
+        'HOST': 'alucardhj123.csbxil058k0y.us-east-1.rds.amazonaws.com',
+        'PORT': '5432'
     }
 }
 
