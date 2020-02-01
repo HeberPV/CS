@@ -79,7 +79,7 @@ DATABASES = {
         'NAME': 'alucardDataBase',
         'USER': 'postgres',
         'PASSWORD': 'alucardhj123',
-        'HOST': 'alucardhj123.csbxil058k0y.us-east-1.rds.amazonaws.com',
+        'HOST': 'alucardhj123.c65lb9ycqlsi.us-east-1.rds.amazonaws.com',
         'PORT': '5432'
     }
 }
