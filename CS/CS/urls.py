@@ -33,6 +33,12 @@ router = routers.DefaultRouter()
 router.register(r'users', UserViewSet)
 
 urlpatterns = [
+<<<<<<< HEAD
 path('admin/', admin.site.urls),
 re_path(r'^',include(router.urls)),
+=======
+    path('admin/', admin.site.urls),
+    re_path(r'^',include(router.urls)),
+    re_path(r'^api/v1/login',include('Login.urls')),
+>>>>>>> abeea2f... add Login module
 ]
