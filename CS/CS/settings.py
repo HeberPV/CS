@@ -25,7 +25,7 @@ SECRET_KEY = '(enp60@*af3wn^9=eos8u1d*873bf_86do!%dctd1^c_!6bf^5'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost','3.80.94.186']
+ALLOWED_HOSTS = ['localhost','3.80.94.186','127.0.0.1']
 
 
 # Application definition
