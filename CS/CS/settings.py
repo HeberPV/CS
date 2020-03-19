@@ -100,8 +100,8 @@ DATABASES = {
     'default': {
         'ENGINE': config('ENGINE'),
         'NAME': config('NAME'),
-        'USER': config('USER'),
-        'PASSWORD': config('PASSWORD'),
+        'USER': config('USERCHIDO'),
+        'PASSWORD': config('PASSWORDCHIDO'),
         'HOST': config('HOST'),
         'PORT': config('PORT')
     }
